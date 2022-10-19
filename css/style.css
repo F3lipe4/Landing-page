@@ -1,0 +1,30 @@
+.plant{
+    z-index: 9;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 800px;
+    top: 200px;
+}
+.house{
+    z-index: 9;
+background-color: blue;
+position: absolute;
+    left: 800px;
+    top: 280px;
+}
+.text{
+    z-index: 9;
+    position: absolute;
+    left: 740px;
+    top: 350px;
+}
+.enano{
+    z-index: 1;
+    position: absolute;
+    top: 320px;
+}
+.sombra{
+    position: absolute;
+    top: 320px;
+    left: 0px;
+}
