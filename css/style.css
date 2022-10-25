@@ -1,22 +1,64 @@
+.flex-principal{
+    border: 1px solid black;
+    background: white;
+    display: flex;
+    position: flex;
+    width: 1440px;
+    height: 1024px;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+
+.flex-plant{
+    background: antiquewhite;
+    position: flex;
+    display: flex;
+    width: 702px;
+    height: 156px;
+
+}
 .plant{
-    z-index: 9;
-    background-color: antiquewhite;
-    position: ;
-    left: 800px;
-    top: 200px;
+    background: white;
+    position: flex;
+    display: flex;
+    width: 702px;
+    height: 156px;
+    line-height: 156px;
+    align-content: center;
+    justify-content: center;
+}
+.flex-house{
+    background-color: blue;
+    position: flex;
+    display: flex;
+    width: 574px;
+    height: 124px;
 }
 .house{
-    z-index: 9;
-background-color: blue;
-position: ;
-    left: 800px;
-    top: 280px;
+    background: white;
+    position: flex;
+    display: flex;
+    width: 574px;
+    height: 124px;
+    line-height: 124px;
+    align-content: center;
+    justify-content: center;
+}
+.flex-text{
+    position: flex;
+    display: flex;
+    width: 420px;
+    height: 46px;
 }
 .text{
-    z-index: 9;
-    position: ;
-    left: 740px;
-    top: 350px;
+    background: white;
+    position: flex;
+    display: flex;
+    width: 420px;
+    height: 46px;
+    line-height: 46px;
+    align-content: center;
+    justify-content: center;
 }
 .enano{
     z-index: 1;
@@ -34,13 +76,13 @@ position: ;
     top: 376px;
 }
 .circle1{
-    position: absolute;
-    width: 614px;
-height: 614px;
-left: -24px;
-top: 20px;
+    border: 1px solid black;
+    display: flex;
+    background-image: url(../assets/img/Ellipse-202-4.svg);
 }
-
+.circle1{
+    background-image: url(../assets/img/Ellipse-202-4.svg);
+}
 .circle2{
     position: absolute;
     width: 483px;
@@ -57,12 +99,9 @@ top: 20px;
 }
 .circle3{
     position: flex;
+    display: flex;
     width: 274.88px;
-height: 272px;
-left: 1228px;
-top: 621px;
-
-
+    height: 272px;
 }
 .circle4{
     position: absolute;
@@ -71,10 +110,36 @@ top: 621px;
     left: 1120px;
     top: -210px;    
 }
-.pot{
-    position: absolute;
-    top: 10px;
-    left: 50px;
+.flex-pot{
+    margin: 30px;
+    position: flex;
+    display: flex;
     width: 63px;
     height: 76px;
+}
+.pot{
+    display: flex;
+    width: 63px;
+    height: 76px;
+    line-height: 76px;
+    align-content: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.flex-menu{
+    display: flex;
+    width: 755px;
+    height: 29px;
+}
+.menu{
+    border: 1px solid black;
+    display: flex;
+    width: 755px;
+    height: 29px;
+    line-height: 29px;
+    margin-top: 100px;
 }
