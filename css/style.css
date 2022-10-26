@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 body{
     margin: 0;
 
@@ -14,11 +16,12 @@ a{
     background: white;
     display: flex;
     width: 1440px;
-    /*height: 1024px;*/
-    flex-wrap: wrap;
-    flex-flow: row;
+    height: 1024px;
+    flex-wrap: row wrap;
+    flex-flow: row wrap;
     margin: 0 auto;
     background-image: url(../assets/img/7597326_1.jpg);
+    background-repeat: no-repeat;
 }
 
 .header{
@@ -26,7 +29,7 @@ a{
     background: rgba(217, 217, 217, 0.2);
     width: 1440px;
     height: 75px;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 header>div{
@@ -36,97 +39,116 @@ header>div{
     display: flex;
     flex-direction: row
 }
-.flex-izq{
-    
-}
-.logo > .header{
+.logo{
+    font-family: 'Raleway';
     display: flex;
     height: 28px;
     width: 89px;
-    margin-top: 10px;
     margin-left: 60px;
+    margin-top: 27px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.3em;
+    justify-content: left;
+    text-align: center;
+    color: white;
 }
 .info{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 10px;
     text-align: center;
+    justify-content: flex-end;
 }
-.about{
-    display: flex;
-    width: 58px;
-    height: 23px;
-    margin: 10px;
-    line-height: 23px;
+.info a{
+    padding: 0 15px;
 }
-.blog{
-    display: flex;
-    width: 54px;
-    height: 23px;
-    margin: 10px;
-    line-height: 23px;
+.info a.active,
+.info a:hover {
+    color: #FFDB60;
 }
-.contact{
-    display: flex;
-    width: 105px;
-    height: 23px;
-    margin: 10px;
-    line-height: 23px;   
-}
-.lin{
-    display: flex;
-    width: 100px;
-    height: 100px;
-}
-.izq{
+.flex-izq{
     display: flex;
     flex-direction: column;
     width: 720px;
     height: 1024px;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
 }
-.titol{
-    display: flex;
-    width: 553px;
-    height: 147px;
-    line-height: 147px;
+.flex-izq .text{
+    width: 456px;
+    margin: 200px auto 50px;
+    flex-direction: column;
+}
+.flex-izq h1{
+    font-size: 70px;
+    letter-spacing: 0.11em;
+    color: white;
+}
+.flex-izq p{
+    font-family: 'Raleway';
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    font-weight: 200;
+    color: #271908;
+}
+.btn-explore{
+    flex-direction: row;
+    align-items: flex-start;
+    background: #271908;
+    border-radius: 40px;
+    color: white;
+    width: 211px;
+    height: 66px;
+    cursor: pointer;
+}
+.btn-explore:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .text{
     display: flex;
     width: 228px;
     height: 70px;
-    line-height: 70px;
 }
-.dere{
-    display: flex;
+.flex-dere{
     width: 720px;
     height: 1024px;
 }
-.click{
+.flex-dere .click{
     display: flex;
     width: 109px;
     height: 18px;
     line-height: 18px;
+    margin-top: 345px;
+    margin-left: 145px;
 }
 .circleclick{
+    z-index: 9;
     position: absolute;
     width: 199px;
     height: 82px;
+    right: 780px;
+    top: 407px;
 }
 .img1{
+    z-index: 1;
     position: absolute;
     width: 276px;
     height: 276px;
+    left: 1270px;
+    top: 387px;
 }
 .img2{
     position: absolute;
     width: 222px;
     height: 222px;
+    top: 552px;
+    left: 1130px;
 }
 .star{
-    display: flex;
+    position: absolute;
     width: 60px;
     height: 75px;
+    top: 299px;
+    left: 1380px;
 }
 .center{
     position: absolute;
@@ -135,9 +157,29 @@ header>div{
     position: absolute;
     width: 191px;
     height: 193.47px;
+    top: 620px;
+    left: 600px;
 }
 .starplant{
     position: absolute;
     width: 74px;
     height: 80px;
+    top: 678px;
+    left: 660px;
+}
+.titol{
+    font-family: 'Source Serif Pro';
+    width: 553px;
+    height: 147px;
+}
+.texto{
+    font-family: 'Raleway';
+    width: 228px;
+    height: 70px;
+    margin-top: 100px;
+}
+.btn{
+    width: 211px;
+    height: 66px;
+    margin-top: 200px;
 }
