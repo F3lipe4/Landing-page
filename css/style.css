@@ -117,15 +117,15 @@ header>div{
     width: 109px;
     height: 18px;
     line-height: 18px;
-    margin-top: 439px;
-    margin-right: 916px;
+    margin-top: 345px;
+    margin-left: 240px;
 }
 .circleclick{
     z-index: 9;
     position: absolute;
     width: 199px;
     height: 82px;
-    right: 874px;
+    right: 580px;
     top: 407px;
 }
 .img1{
@@ -133,7 +133,7 @@ header>div{
     position: absolute;
     width: 276px;
     height: 276px;
-    left: 1015px;
+    left: 1270px;
     top: 387px;
 }
 .img2{
@@ -141,14 +141,14 @@ header>div{
     width: 222px;
     height: 222px;
     top: 552px;
-    left: 874px;
+    left: 1130px;
 }
 .star{
     position: absolute;
     width: 60px;
     height: 75px;
     top: 299px;
-    left: 1112px;
+    left: 1380px;
 }
 .center{
     position: absolute;
